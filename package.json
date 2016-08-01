@@ -1,0 +1,16 @@
+{
+  "name": "nodejs101",
+  "version": "1.0.0",
+  "description": "NodeJS 101 Introduction",
+  "author": "Marwan Osman",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "PORT=1200 node index.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "express": "4.14.0",
+    "socket.io": "1.4.8"
+  }
+}
